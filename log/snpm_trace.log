@@ -1,0 +1,153 @@
+INFO  | 2017-06-05 18:04:09 | [main] log4j.TestLog4j (TestLog4j.java:13) - ------ Info: log4j ------
+ERROR | 2017-06-05 18:04:09 | [main] log4j.TestLog4j (TestLog4j.java:15) - ------ Error: log4j -----
+INFO  | 2017-06-05 18:05:02 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:05:02 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:05:06 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@47a936e2
+INFO  | 2017-06-05 18:05:06 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:05:06 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:05:06 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-05 18:05:53 | [main] log4j.TestLog4j (TestLog4j.java:13) - ------ Info: log4j ------
+ERROR | 2017-06-05 18:05:53 | [main] log4j.TestLog4j (TestLog4j.java:15) - ------ Error: log4j -----
+INFO  | 2017-06-05 18:11:35 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:11:35 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:11:38 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@15b35a10
+INFO  | 2017-06-05 18:11:38 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:11:38 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:11:39 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-05 18:18:24 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:18:24 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:18:41 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@26e82c72
+INFO  | 2017-06-05 18:18:41 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:18:41 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:18:41 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-05 18:19:39 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:19:39 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:19:43 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@13385eca
+INFO  | 2017-06-05 18:19:43 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:19:43 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:19:43 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-05 18:19:59 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:19:59 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:20:03 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@5dfcbd65
+INFO  | 2017-06-05 18:20:03 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:20:03 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:20:58 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-05 18:21:29 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:21:29 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:22:10 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@15829cfd
+INFO  | 2017-06-05 18:23:43 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:23:43 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:23:43 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-05 18:25:13 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-05 18:25:13 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-05 18:25:17 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@34ea79af
+FATAL | 2017-06-05 18:25:17 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when the class name expression is null.
+ERROR | 2017-06-05 18:25:17 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:25:17 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 09:44:03 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 09:44:03 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 09:44:10 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@6b9ee282
+FATAL | 2017-06-06 09:44:10 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when the XPath expression is null.
+ERROR | 2017-06-06 09:44:10 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 09:44:11 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 09:55:14 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 09:55:14 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 09:55:20 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@17c40621
+FATAL | 2017-06-06 09:55:20 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements with a null id attribute.
+ERROR | 2017-06-06 09:55:20 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 09:55:20 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 09:58:16 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 09:58:16 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 09:58:22 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@78bae085
+FATAL | 2017-06-06 09:58:22 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements with a null id attribute.
+ERROR | 2017-06-06 09:58:22 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 09:58:22 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 10:01:03 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 10:01:03 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 10:01:09 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@32b0da0a
+FATAL | 2017-06-06 10:01:09 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when name text is null.
+ERROR | 2017-06-06 10:01:09 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 10:01:09 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 10:03:06 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 10:03:06 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 10:03:24 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@2a1fca3d
+FATAL | 2017-06-06 10:08:19 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when name text is null.
+ERROR | 2017-06-06 10:08:19 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 10:08:20 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 10:09:13 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 10:09:13 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 10:09:27 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@38b483aa
+INFO  | 2017-06-06 10:09:27 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:09:27 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-06 10:09:28 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 10:16:49 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 10:16:49 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 10:16:55 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@286edac4
+INFO  | 2017-06-06 10:16:55 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:57 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:57 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:57 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-06 10:16:57 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+INFO  | 2017-06-06 10:21:11 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+INFO  | 2017-06-06 10:21:11 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+INFO  | 2017-06-06 10:21:16 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@3e6cad07
+INFO  | 2017-06-06 10:21:16 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:18 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:18 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-06 10:21:18 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test

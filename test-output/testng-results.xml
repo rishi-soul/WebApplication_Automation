@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11595" started-at="2017-06-06T04:46:49Z" finished-at="2017-06-06T04:47:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11595" started-at="2017-06-06T04:46:49Z" finished-at="2017-06-06T04:47:01Z">
+      <class name="com.snpm.test.TestHomePage">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.snpm.test.TestHomePage@2aee3c45]" name="init" is-config="true" duration-ms="5619" started-at="2017-06-06T10:16:49Z" finished-at="2017-06-06T10:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="enterInputs()[pri:0, instance:com.snpm.test.TestHomePage@2aee3c45]" name="enterInputs" duration-ms="2185" started-at="2017-06-06T10:16:55Z" finished-at="2017-06-06T10:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInputs -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.snpm.test.TestHomePage@2aee3c45]" name="close" is-config="true" duration-ms="3776" started-at="2017-06-06T10:16:57Z" finished-at="2017-06-06T10:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.snpm.test.TestHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

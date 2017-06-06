@@ -1,0 +1,50 @@
+ERROR | 2017-06-05 18:04:09 | [main] log4j.TestLog4j (TestLog4j.java:15) - ------ Error: log4j -----
+FATAL | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+ERROR | 2017-06-05 18:05:06 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+ERROR | 2017-06-05 18:05:53 | [main] log4j.TestLog4j (TestLog4j.java:15) - ------ Error: log4j -----
+FATAL | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+ERROR | 2017-06-05 18:11:38 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+ERROR | 2017-06-05 18:18:41 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+ERROR | 2017-06-05 18:19:43 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+ERROR | 2017-06-05 18:20:03 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+ERROR | 2017-06-05 18:23:43 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:25:17 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when the class name expression is null.
+ERROR | 2017-06-05 18:25:17 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:44:10 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when the XPath expression is null.
+ERROR | 2017-06-06 09:44:10 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:55:20 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements with a null id attribute.
+ERROR | 2017-06-06 09:55:20 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:58:22 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements with a null id attribute.
+ERROR | 2017-06-06 09:58:22 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:01:09 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when name text is null.
+ERROR | 2017-06-06 10:01:09 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:08:19 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when name text is null.
+ERROR | 2017-06-06 10:08:19 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+FATAL | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)

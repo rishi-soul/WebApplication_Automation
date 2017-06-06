@@ -1,0 +1,334 @@
+INFO  | 2017-06-05 18:04:09 | [main] log4j.TestLog4j (TestLog4j.java:13) - ------ Info: log4j ------
+DEBUG | 2017-06-05 18:04:09 | [main] log4j.TestLog4j (TestLog4j.java:14) - ----- debug: log4j ------
+ERROR | 2017-06-05 18:04:09 | [main] log4j.TestLog4j (TestLog4j.java:15) - ------ Error: log4j -----
+DEBUG | 2017-06-05 18:05:02 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:05:02 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@2601a86e
+DEBUG | 2017-06-05 18:05:02 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:05:02 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@7a20a340
+DEBUG | 2017-06-05 18:05:02 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:05:02 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:05:02 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:05:02 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:05:06 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@47a936e2
+DEBUG | 2017-06-05 18:05:06 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---VALIDATETITLE---------abc----
+INFO  | 2017-06-05 18:05:06 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:05:06 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:05:06 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:05:10 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+INFO  | 2017-06-05 18:05:53 | [main] log4j.TestLog4j (TestLog4j.java:13) - ------ Info: log4j ------
+DEBUG | 2017-06-05 18:05:53 | [main] log4j.TestLog4j (TestLog4j.java:14) - ----- debug: log4j ------
+ERROR | 2017-06-05 18:05:53 | [main] log4j.TestLog4j (TestLog4j.java:15) - ------ Error: log4j -----
+DEBUG | 2017-06-05 18:11:35 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:11:35 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@5703a7f
+DEBUG | 2017-06-05 18:11:35 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:11:35 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@5679f207
+DEBUG | 2017-06-05 18:11:35 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:11:35 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:11:35 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:11:35 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:11:38 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@15b35a10
+DEBUG | 2017-06-05 18:11:38 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---VALIDATETITLE---------abc----
+INFO  | 2017-06-05 18:11:38 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:11:38 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:11:39 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:11:43 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-05 18:18:24 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:18:24 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@5703a7f
+DEBUG | 2017-06-05 18:18:24 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:18:24 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@5679f207
+DEBUG | 2017-06-05 18:18:24 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:18:24 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:18:24 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:18:24 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:18:41 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@26e82c72
+DEBUG | 2017-06-05 18:18:41 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---VALIDATETITLE---------abc----
+INFO  | 2017-06-05 18:18:41 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:18:41 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:18:41 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:18:45 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-05 18:19:39 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:19:39 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@53261322
+DEBUG | 2017-06-05 18:19:39 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:19:39 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@66d2774f
+DEBUG | 2017-06-05 18:19:39 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:19:39 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:19:39 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:19:39 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:19:43 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@13385eca
+DEBUG | 2017-06-05 18:19:43 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---VALIDATETITLE---------abc----
+INFO  | 2017-06-05 18:19:43 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:19:43 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:19:43 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:19:46 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-05 18:19:59 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:19:59 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@1197414
+DEBUG | 2017-06-05 18:19:59 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:19:59 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@50b5ae3a
+DEBUG | 2017-06-05 18:19:59 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:19:59 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:19:59 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:19:59 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:20:03 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@5dfcbd65
+DEBUG | 2017-06-05 18:20:03 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---VALIDATETITLE---------abc----
+INFO  | 2017-06-05 18:20:03 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:20:03 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:20:58 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:21:02 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-05 18:21:29 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:21:29 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@2e13cd9c
+DEBUG | 2017-06-05 18:21:29 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:21:29 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@39ffc90a
+DEBUG | 2017-06-05 18:21:29 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:21:29 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:21:29 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:21:29 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:22:10 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@15829cfd
+DEBUG | 2017-06-05 18:23:42 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---VALIDATETITLE---------abc----
+INFO  | 2017-06-05 18:23:43 | [main] operation.BaseAction (BaseAction.java:258) - xpected Title is not matching actual title. Expected Title:abc. Actual Title:Google
+ERROR | 2017-06-05 18:23:43 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:23:43 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:23:47 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-05 18:25:13 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-05 18:25:13 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@58dd8116
+DEBUG | 2017-06-05 18:25:13 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:25:13 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@66328ec4
+DEBUG | 2017-06-05 18:25:13 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-05 18:25:13 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-05 18:25:13 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-05 18:25:13 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-05 18:25:17 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@34ea79af
+DEBUG | 2017-06-05 18:25:17 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--q----CLASSNAME---abc----
+FATAL | 2017-06-05 18:25:17 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when the class name expression is null.
+ERROR | 2017-06-05 18:25:17 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-05 18:25:17 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-05 18:25:21 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 09:44:03 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 09:44:03 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@4b71188e
+DEBUG | 2017-06-06 09:44:03 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 09:44:03 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@43f69b79
+DEBUG | 2017-06-06 09:44:03 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 09:44:03 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 09:44:03 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 09:44:03 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 09:44:10 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@6b9ee282
+DEBUG | 2017-06-06 09:44:10 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id50:ordRec']----XPATH---11-Nov-2016----
+FATAL | 2017-06-06 09:44:10 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when the XPath expression is null.
+ERROR | 2017-06-06 09:44:10 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 09:44:11 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 09:44:14 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 09:55:14 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 09:55:14 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@3c4b68b2
+DEBUG | 2017-06-06 09:55:14 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 09:55:14 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@436e5aed
+DEBUG | 2017-06-06 09:55:14 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 09:55:14 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 09:55:14 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 09:55:14 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 09:55:20 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@17c40621
+DEBUG | 2017-06-06 09:55:20 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id46:servDesc----ID---11-Nov-2016----
+FATAL | 2017-06-06 09:55:20 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements with a null id attribute.
+ERROR | 2017-06-06 09:55:20 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 09:55:20 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 09:55:24 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 09:58:16 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 09:58:16 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@75e04c59
+DEBUG | 2017-06-06 09:58:16 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 09:58:16 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@3589085
+DEBUG | 2017-06-06 09:58:16 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 09:58:16 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 09:58:16 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 09:58:16 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 09:58:22 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@78bae085
+DEBUG | 2017-06-06 09:58:22 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id46:servDesc----ID---Simplicity tariff (within 14 days)----
+FATAL | 2017-06-06 09:58:22 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements with a null id attribute.
+ERROR | 2017-06-06 09:58:22 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 09:58:22 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 09:58:25 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 10:01:03 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 10:01:03 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@b106aa3
+DEBUG | 2017-06-06 10:01:03 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:01:03 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@6000d5eb
+DEBUG | 2017-06-06 10:01:03 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:01:03 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 10:01:03 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 10:01:03 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 10:01:09 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@32b0da0a
+DEBUG | 2017-06-06 10:01:09 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id48:servDesc----NAME---Tarrif----
+FATAL | 2017-06-06 10:01:09 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when name text is null.
+ERROR | 2017-06-06 10:01:09 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 10:01:09 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 10:01:13 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 10:03:06 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 10:03:06 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@492be078
+DEBUG | 2017-06-06 10:03:06 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:03:06 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@435591e4
+DEBUG | 2017-06-06 10:03:06 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:03:06 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 10:03:06 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 10:03:06 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 10:03:24 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@2a1fca3d
+DEBUG | 2017-06-06 10:03:32 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id48:servDesc----NAME---Tarrif----
+FATAL | 2017-06-06 10:08:19 | [main] operation.BaseAction (BaseAction.java:204) - Cannot find elements when name text is null.
+ERROR | 2017-06-06 10:08:19 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-06 10:08:20 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 10:08:24 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 10:09:13 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 10:09:13 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@68b247d3
+DEBUG | 2017-06-06 10:09:13 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:09:13 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@3971846
+DEBUG | 2017-06-06 10:09:13 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:09:13 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 10:09:13 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 10:09:13 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 10:09:27 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@38b483aa
+DEBUG | 2017-06-06 10:09:27 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id48:servDesc----NAME---Tarrif----
+INFO  | 2017-06-06 10:09:27 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:09:27 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-06 10:09:28 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 10:09:31 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 10:16:49 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 10:16:49 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@68b247d3
+DEBUG | 2017-06-06 10:16:49 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:16:49 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@3971846
+DEBUG | 2017-06-06 10:16:49 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:16:49 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 10:16:49 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 10:16:49 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 10:16:55 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@286edac4
+DEBUG | 2017-06-06 10:16:55 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id48:servDesc----NAME---Tarrif----
+INFO  | 2017-06-06 10:16:55 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:56 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id46:servDesc----ID---Simplicity tariff (within 14 days)----
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:56 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id50:ordRec']----XPATH---11-Nov-2016----
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:56 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id52:accNo']----XPATH---7899911.0----
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:56 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id54:mobNo----ID---7.055555556E9----
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:56 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id56:nam']----XPATH---Test Accepta----
+INFO  | 2017-06-06 10:16:56 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:56 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id58:em']----XPATH---shradha.sahu@accenture.com----
+INFO  | 2017-06-06 10:16:57 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:16:57 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id60:adr']----XPATH---sl1 1ep----
+INFO  | 2017-06-06 10:16:57 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:16:57 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-06 10:16:57 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 10:17:01 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-06 10:21:11 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Personal Development\Automation_framework
+INFO  | 2017-06-06 10:21:11 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@7ac69d0a
+DEBUG | 2017-06-06 10:21:11 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:21:11 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@213a031
+DEBUG | 2017-06-06 10:21:11 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-06 10:21:11 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-06 10:21:11 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-06 10:21:11 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-06 10:21:16 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@3e6cad07
+DEBUG | 2017-06-06 10:21:16 | [main] operation.UIOperation (UIOperation.java:73) - --Validate the webpage title---SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id48:servDesc----NAME---Tarrif----
+INFO  | 2017-06-06 10:21:16 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:16 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id46:servDesc----ID---Simplicity tariff (within 14 days)----
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:17 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id50:ordRec']----XPATH---11-Nov-2016----
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:17 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id52:accNo']----XPATH---7899911.0----
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:17 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--j_id0:o2Template:j_id6:j_id8:j_id45:j_id54:mobNo----ID---7.055555556E9----
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:17 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id56:nam']----XPATH---Test Accepta----
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:17 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id58:em']----XPATH---shradha.sahu@accenture.com----
+INFO  | 2017-06-06 10:21:17 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+DEBUG | 2017-06-06 10:21:17 | [main] operation.UIOperation (UIOperation.java:73) - -----SETTEXT--.//*[@id='j_id0:o2Template:j_id6:j_id8:j_id45:j_id60:adr']----XPATH---sl1 1ep----
+INFO  | 2017-06-06 10:21:18 | [main] operation.BaseAction (BaseAction.java:201) - Text is set in object
+INFO  | 2017-06-06 10:21:18 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-06 10:21:18 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-06 10:21:21 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
