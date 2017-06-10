@@ -2,8 +2,7 @@ package com.snpm.test;
 
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+import com.aventstack.extentreports.ExtentTest;
 import com.snpm.util.BaseUtil;
 
 public class TestHomePage extends TestBase {
@@ -14,15 +13,17 @@ public class TestHomePage extends TestBase {
 	@Test(priority = 1)
 	public void enterInputs() throws Exception {
 
-		test = reports.startTest(pageName + "Sample test to validate Webpage title");
+		test = reports.createTest("TestCase1","Sample test to validate Webpage title");
 		if (homePage.validateTitle(test)) {
-			test.log(LogStatus.PASS, "Text is Successfully inserted.");
+			test.pass("Text is Successfully inserted.");
+			//test.log(LogStatus.PASS, "Text is Successfully inserted.");
 			BaseUtil.CaptureScreen(driver,passScreenShotPath + this.getClass().getSimpleName().replaceAll("Test", "") + "//isTitleCorrect");
 		} else {
 			BaseUtil.CaptureScreen(driver,failScreenShotPath + this.getClass().getSimpleName().replaceAll("Test", "") + "//isTitleCorrect");
-			test.log(LogStatus.FAIL, "Text is not Successfully inserted.");
+			test.fail("Text is not Successfully inserted.");
+			//test.log(LogStatus.FAIL, "Text is not Successfully inserted.");
 		}
-		reports.endTest(test);
+		reports.flush();
 		// Thread.sleep(5000);
 	}
 

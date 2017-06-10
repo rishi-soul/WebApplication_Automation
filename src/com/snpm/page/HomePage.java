@@ -3,7 +3,7 @@
  */
 package com.snpm.page;
 
-import com.relevantcodes.extentreports.ExtentTest;
+import com.aventstack.extentreports.ExtentTest;
 import com.snpm.operation.TestCase;
 import com.snpm.operation.UIOperation;
 import com.snpm.test.TestBase;

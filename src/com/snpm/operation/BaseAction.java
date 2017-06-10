@@ -6,8 +6,6 @@ package com.snpm.operation;
 import java.text.NumberFormat;
 import java.util.List;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -16,8 +14,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import com.snpm.test.TestBase;
 
 /**
@@ -41,16 +39,16 @@ public class BaseAction {
 		try {
 			String actualtext = driver.findElement(this.getObject(p, objectName, objectType)).getText();
 			if (actualtext.equals(value)) {
-				test.log(LogStatus.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
+				test.log(Status.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				logger.info("Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				return true;
 			} else {
-				test.log(LogStatus.INFO,"Expected text is not matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
+				test.log(Status.INFO,"Expected text is not matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				logger.error("Expected text is not matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				return false;
 			}
 		} catch (Exception e) {
-			test.log(LogStatus.INFO, "Expected text output:"+value+". Unable to get the actual element from UI. Please refer to logs for more details.");
+			test.log(Status.INFO, "Expected text output:"+value+". Unable to get the actual element from UI. Please refer to logs for more details.");
 			logger.fatal(e.getMessage());
 			return false;
 		}
@@ -67,16 +65,16 @@ public class BaseAction {
 		try {
 			String actualtext = driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("textContent");
 			if (actualtext.equals(value)) {
-				test.log(LogStatus.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
+				test.log(Status.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				logger.info("Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				return true;
 			} else {
-				test.log(LogStatus.INFO,"Expected text is not matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
+				test.log(Status.INFO,"Expected text is not matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				logger.error("Expected text is not matching actual text. Expected text output:"+value+". Actual text in Report UI:"+actualtext);
 				return false;
 			}
 		} catch (Exception e) {
-			test.log(LogStatus.INFO, "Expected text output:"+value+". Unable to get the actual element from UI. Please refer to logs for more details.");
+			test.log(Status.INFO, "Expected text output:"+value+". Unable to get the actual element from UI. Please refer to logs for more details.");
 			logger.fatal(e.getMessage());
 			return false;
 		}
@@ -139,20 +137,20 @@ public class BaseAction {
 	public boolean checkInputErrorMsg(WebDriver driver, Properties p, String objectName, String objectType, String value,ExtentTest test) {
 		try {
 			if (driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title").equals(value) | driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("original-title").equals(value)) {
-				test.log(LogStatus.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title")
+				test.log(Status.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title")
 						+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("original-title"));
 				logger.info("Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title")
 						+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("original-title"));
 				return true;
 			} else {
-				test.log(LogStatus.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title")
+				test.log(Status.INFO,"Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title")
 						+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("original-title"));
 				logger.error("Expected text is matching actual text. Expected text output:"+value+". Actual text in Report UI:"+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("title")
 						+driver.findElement(this.getObject(p, objectName, objectType)).getAttribute("original-title"));
 				return false;
 			}
 		} catch (Exception e) {
-			test.log(LogStatus.INFO, "Expected text output:"+value+". Unable to get the actual element from UI. Please refer to logs for more details.");
+			test.log(Status.INFO, "Expected text output:"+value+". Unable to get the actual element from UI. Please refer to logs for more details.");
 			logger.fatal(e.getMessage());
 			return false;
 		}
@@ -181,10 +179,16 @@ public class BaseAction {
 	 * @param p
 	 * @param value
 	 */
-	public void goToUrl(WebDriver driver, Properties p, String value) {
-		driver.get(p.getProperty(value));
-		String titleName = driver.getTitle();
-		logger.debug("Open URL : " + p.getProperty(value) + "#### title name: " + titleName);
+	public boolean goToUrl(WebDriver driver, Properties p, String value) {
+		try{
+			driver.get(value);
+			String titleName = driver.getTitle();
+			logger.debug("Open URL : " + p.getProperty(value) + "#### title name: " + titleName);
+			return true;
+		}catch (Exception e){
+			logger.debug("Unable to open URL : " + p.getProperty(value) + "#### title name: ");
+			return false;
+		}
 	}
 
 	/**
@@ -250,16 +254,16 @@ public class BaseAction {
 		try {
 			String actualtext = driver.getTitle();
 			if (actualtext.equals(value)) {
-				test.log(LogStatus.INFO,"Expected Title is matching actual title. Expected Title:"+value+". Actual Title:"+actualtext);
+				test.log(Status.INFO,"Expected Title is matching actual title. Expected Title:"+value+". Actual Title:"+actualtext);
 				logger.info("xpected Title is matching actual title. Expected Title:"+value+". Actual Title:"+actualtext);
 				return true;
 			} else {
-				test.log(LogStatus.INFO,"Expected Title is not matching actual title. Expected Title:"+value+". Actual Title:"+actualtext);
+				test.log(Status.INFO,"Expected Title is not matching actual title. Expected Title:"+value+". Actual Title:"+actualtext);
 				logger.info("xpected Title is not matching actual title. Expected Title:"+value+". Actual Title:"+actualtext);
 				return false;
 			}
 		} catch (Exception e) {
-			test.log(LogStatus.INFO, "Expected text output:"+value+". Unable to get the title. Please refer to logs for more details.");
+			test.log(Status.INFO, "Expected text output:"+value+". Unable to get the title. Please refer to logs for more details.");
 			logger.fatal(e.getMessage());
 			return false;
 		}

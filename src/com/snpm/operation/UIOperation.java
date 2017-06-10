@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 
-import com.relevantcodes.extentreports.ExtentTest;
+import com.aventstack.extentreports.ExtentTest;
 import com.snpm.test.TestBase;
 import com.snpm.util.AESCrypt;
 
@@ -90,7 +90,7 @@ public class UIOperation extends CustomAction{
 				break;
 			case "GOTOURL":
 				// Get url of application
-				//rc = goToUrl(driver, p, value);
+				rc = goToUrl(driver, p, value);
 				break;
 			case "GETTEXT":
 				// Get text of an element

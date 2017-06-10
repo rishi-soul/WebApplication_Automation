@@ -15,7 +15,7 @@ public class RegressionTest {
 		List<String> suitefiles=new ArrayList<String>();
 
 		// Add xml file which you have to execute
-		suitefiles.add("testng/testng.xml");
+		suitefiles.add("testng.xml");
 
 		// now set xml file for execution
 		runner.setTestSuites(suitefiles);

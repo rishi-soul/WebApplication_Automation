@@ -78,11 +78,12 @@
     <version>6.8</version>
 </dependency>
 
+
     <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
 <dependency>
-    <groupId>com.relevantcodes</groupId>
+    <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
-    <version>2.41.0</version>
+    <version>3.0.6</version>
 </dependency>
     
     <dependency>
