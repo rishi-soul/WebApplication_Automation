@@ -22,10 +22,12 @@ import org.ini4j.Ini;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.DataProvider;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.relevantcodes.extentreports.ExtentReports;
 import com.snpm.operation.Action;
 import com.snpm.operation.TestCase;
 import com.snpm.test.TestBase;
@@ -35,27 +37,23 @@ public class BaseUtil {
 	//private static ArrayList<Action> actions = TestCase.actions;
 	private Ini pageIni = TestBase.pageIni;
 	
-	/*public static ExtentReports getReportInstance() {
-		ExtentReports reports = new ExtentReports();
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
-		reports.attachReporter(htmlReporter);
+	public static ExtentReports getReportInstance() {
+		ExtentReports reports = new ExtentReports("testreport\\report_"  + Util.getDate() + "_" + Util.getTime()+ ".html");
 		//reports.config().reportHeadline(reportHeadline);
 		//reports.config().documentTitle("Automation Report").reportName("Smoke");
 
 		//Load report config
-		//reports.loadConfig(ExtentReports.class, "resources","extent-config.xml");
+		reports.loadConfig(ExtentReports.class, "extent-config.xml");
 		//adding system info
 		Map<String, String> sysInfo = new HashMap<String, String>();
-		//sysInfo.put("Environment", (String) getProperty().get("env"));
-		//sysInfo.put("Browser", (String) getProperty().get("browser"));
-		//sysInfo.put("URL", (String) getProperty().get("homepage.url."+getProperty().get("env")));
-		reports.setSystemInfo("Environment", (String) getProperty().get("env"));
-		reports.setSystemInfo("Browser", (String) getProperty().get("browser"));
-		reports.setSystemInfo("URL", (String) getProperty().get("homepage.url."+getProperty().get("env")));
+		sysInfo.put("Environment", (String) getProperty().get("env"));
+		sysInfo.put("Browser", (String) getProperty().get("browser"));
+		sysInfo.put("URL", (String) getProperty().get("homepage.url."+getProperty().get("env")));
+		
 
-		//reports.addSystemInfo(sysInfo);
+		reports.addSystemInfo(sysInfo);
 		return reports;
-	}*/
+	}
 
 	private static int findRow(Sheet sheet, String cellContent) {
 		//System.out.println("0. &&&&&&&&&&&&&& --- cellContent value = " + cellContent);

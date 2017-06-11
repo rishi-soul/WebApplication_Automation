@@ -1120,3 +1120,137 @@ Session ID: ad5117e976573704ab3b1917e3fec718
 ERROR | 2017-06-10 13:30:41 | [main] page.HomePage (HomePage.java:68) - Title is not validated
 INFO  | 2017-06-10 13:30:42 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
 DEBUG | 2017-06-10 13:30:44 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-11 09:53:43 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Automation_framework
+INFO  | 2017-06-11 09:53:43 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:69) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:96) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:111) - Intializing all the pages
+DEBUG | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:115) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:118) - ----Add page: {0} [Ljava.lang.Object;@37c7595
+DEBUG | 2017-06-11 09:53:43 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 09:53:43 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:119) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@1fdf1c5
+DEBUG | 2017-06-11 09:53:43 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 09:53:43 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-11 09:53:43 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-11 09:53:43 | [main] page.BasePage (BasePage.java:145) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-11 09:53:53 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@f19c9d2
+DEBUG | 2017-06-11 09:53:53 | [main] operation.UIOperation (UIOperation.java:73) - -----GOTOURL---------http://google.com----
+DEBUG | 2017-06-11 09:53:56 | [main] operation.BaseAction (BaseAction.java:186) - Open URL : null#### title name: Google
+DEBUG | 2017-06-11 09:53:56 | [main] operation.UIOperation (UIOperation.java:73) - --Click on the menu---CLICK--//*[@id="gbwa"]/div[1]/a----XPATH-------
+INFO  | 2017-06-11 09:53:56 | [main] operation.BaseAction (BaseAction.java:239) - Button is cliked
+DEBUG | 2017-06-11 09:53:56 | [main] operation.UIOperation (UIOperation.java:73) - -----WAIT4ELEMENT--//*[@id="gb36"]/span[1]----XPATH---18-Mar-1908----
+INFO  | 2017-06-11 09:53:56 | [main] operation.BaseAction (BaseAction.java:279) - Waiting for element to come up...
+INFO  | 2017-06-11 09:53:56 | [main] operation.BaseAction (BaseAction.java:281) - Element has come up...
+DEBUG | 2017-06-11 09:53:56 | [main] operation.UIOperation (UIOperation.java:73) - -----CLICK--//*[@id="gb36"]/span[1]----XPATH-------
+INFO  | 2017-06-11 09:54:01 | [main] operation.BaseAction (BaseAction.java:239) - Button is cliked
+INFO  | 2017-06-11 09:54:01 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-11 09:54:02 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-11 09:54:05 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-11 11:37:19 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Automation_framework
+INFO  | 2017-06-11 11:37:19 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@61584cf8
+DEBUG | 2017-06-11 11:37:19 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 11:37:19 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@72b7f789
+DEBUG | 2017-06-11 11:37:19 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 11:37:19 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-11 11:37:19 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-11 11:37:19 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-11 11:37:22 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@40014da3
+DEBUG | 2017-06-11 11:37:22 | [main] operation.UIOperation (UIOperation.java:73) - -----GOTOURL---------http://google.com----
+DEBUG | 2017-06-11 11:37:22 | [main] operation.UIOperation (UIOperation.java:73) - --Click on the menu---CLICK--//*[@id="gbwa"]/div[1]/a----XPATH-------
+FATAL | 2017-06-11 11:37:27 | [main] operation.BaseAction (BaseAction.java:238) - chrome not reachable
+  (Session info: chrome=57.0.2987.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'GH-2G1N542', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_25'
+*** Element info: {Using=xpath, value=//*[@id="gbwa"]/div[1]/a}
+Session ID: 5a82c90aac4ca3ed472f430c62553151
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E070658\AppData\Local\Temp\scoped_dir1080_3313, chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233)}, networkConnectionEnabled=false, unexpectedAlertBehaviour=, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=57.0.2987.110, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+ERROR | 2017-06-11 11:37:27 | [main] page.HomePage (HomePage.java:68) - Title is not validated
+INFO  | 2017-06-11 11:37:31 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-11 14:07:48 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Automation_framework
+INFO  | 2017-06-11 14:07:48 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@7ee9271f
+DEBUG | 2017-06-11 14:07:48 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 14:07:48 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@58a8272d
+DEBUG | 2017-06-11 14:07:48 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 14:07:48 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-11 14:07:48 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-11 14:07:48 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-11 14:07:54 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@6608464f
+DEBUG | 2017-06-11 14:07:54 | [main] operation.UIOperation (UIOperation.java:73) - -----GOTOURL---------http://google.com----
+DEBUG | 2017-06-11 14:07:54 | [main] operation.UIOperation (UIOperation.java:73) - --Click on the menu---CLICK--//*[@id="gbwa"]/div[1]/a----XPATH-------
+INFO  | 2017-06-11 14:08:28 | [main] operation.BaseAction (BaseAction.java:235) - Button is cliked
+DEBUG | 2017-06-11 14:08:28 | [main] operation.UIOperation (UIOperation.java:73) - -----WAIT4ELEMENT--//*[@id="gb36"]/span[1]----XPATH---18-Mar-1908----
+INFO  | 2017-06-11 14:08:28 | [main] operation.BaseAction (BaseAction.java:275) - Waiting for element to come up...
+INFO  | 2017-06-11 14:08:28 | [main] operation.BaseAction (BaseAction.java:277) - Element has come up...
+DEBUG | 2017-06-11 14:08:28 | [main] operation.UIOperation (UIOperation.java:73) - -----CLICK--//*[@id="gb36"]/span[1]----XPATH-------
+INFO  | 2017-06-11 14:08:29 | [main] operation.BaseAction (BaseAction.java:235) - Button is cliked
+INFO  | 2017-06-11 14:08:29 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-11 14:08:30 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-11 14:08:31 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-11 19:06:12 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Automation_framework
+INFO  | 2017-06-11 19:06:12 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@4b55cd6b
+DEBUG | 2017-06-11 19:06:12 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 19:06:12 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@4a8c404d
+DEBUG | 2017-06-11 19:06:12 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 19:06:12 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-11 19:06:12 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-11 19:06:12 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-11 19:06:18 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@455f504c
+DEBUG | 2017-06-11 19:06:18 | [main] operation.UIOperation (UIOperation.java:73) - -----GOTOURL---------http://google.com----
+DEBUG | 2017-06-11 19:06:18 | [main] operation.UIOperation (UIOperation.java:73) - --Click on the menu---CLICK--//*[@id="gbwa"]/div[1]/a----XPATH-------
+INFO  | 2017-06-11 19:06:37 | [main] operation.BaseAction (BaseAction.java:235) - Button is cliked
+DEBUG | 2017-06-11 19:06:37 | [main] operation.UIOperation (UIOperation.java:73) - -----WAIT4ELEMENT--//*[@id="gb36"]/span[1]----XPATH---18-Mar-1908----
+INFO  | 2017-06-11 19:06:37 | [main] operation.BaseAction (BaseAction.java:275) - Waiting for element to come up...
+INFO  | 2017-06-11 19:06:37 | [main] operation.BaseAction (BaseAction.java:277) - Element has come up...
+DEBUG | 2017-06-11 19:06:37 | [main] operation.UIOperation (UIOperation.java:73) - -----CLICK--//*[@id="gb36"]/span[1]----XPATH-------
+INFO  | 2017-06-11 19:06:40 | [main] operation.BaseAction (BaseAction.java:235) - Button is cliked
+INFO  | 2017-06-11 19:06:40 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-11 19:06:41 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-11 19:06:42 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.
+DEBUG | 2017-06-11 19:12:04 | [main] test.TestBase (TestBase.java:65) - working directory: C:\Users\E070658\Desktop\Automation_framework
+INFO  | 2017-06-11 19:12:04 | [main] test.TestBase (TestBase.java:72) - Intializing all the pages
+FATAL | 2017-06-11 19:12:04 | [main] page.BasePage (BasePage.java:74) - config\searchers.json (The system cannot find the file specified)
+FATAL | 2017-06-11 19:12:04 | [main] page.BasePage (BasePage.java:101) - config\reportdetails.json (The system cannot find the file specified)
+INFO  | 2017-06-11 19:12:05 | [main] page.BasePage (BasePage.java:116) - Intializing all the pages
+DEBUG | 2017-06-11 19:12:05 | [main] page.BasePage (BasePage.java:120) - ****** pageType : SNPM_NON_ACCESS_SEEKER
+DEBUG | 2017-06-11 19:12:05 | [main] page.BasePage (BasePage.java:123) - ----Add page: {0} [Ljava.lang.Object;@2678a242
+DEBUG | 2017-06-11 19:12:05 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 19:12:05 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+DEBUG | 2017-06-11 19:12:05 | [main] page.BasePage (BasePage.java:124) - !!!!!!key =HomePagePage: com.snpm.page.HomePage@11ad1541
+DEBUG | 2017-06-11 19:12:05 | [main] page.PageFactory (PageFactory.java:29) - !!!!!!!! new instance: {0} 
+DEBUG | 2017-06-11 19:12:05 | [main] page.PageFactory (PageFactory.java:32) - ---------- basePage {0} ++++++++++ 
+INFO  | 2017-06-11 19:12:05 | [main] test.TestBase (TestBase.java:76) - --- loadHomePage ---
+DEBUG | 2017-06-11 19:12:05 | [main] page.BasePage (BasePage.java:150) - --------HomeUrl ------ homepage.url.st
+INFO  | 2017-06-11 19:12:09 | [main] page.HomePage (HomePage.java:63) - validate title: com.snpm.operation.TestCase@21b0d8fc
+DEBUG | 2017-06-11 19:12:09 | [main] operation.UIOperation (UIOperation.java:73) - -----GOTOURL---------http://google.com----
+DEBUG | 2017-06-11 19:12:09 | [main] operation.UIOperation (UIOperation.java:73) - --Click on the menu---CLICK--//*[@id="gbwa"]/div[1]/a----XPATH-------
+INFO  | 2017-06-11 19:12:19 | [main] operation.BaseAction (BaseAction.java:235) - Button is cliked
+DEBUG | 2017-06-11 19:12:19 | [main] operation.UIOperation (UIOperation.java:73) - -----WAIT4ELEMENT--//*[@id="gb36"]/span[1]----XPATH---18-Mar-1908----
+INFO  | 2017-06-11 19:12:19 | [main] operation.BaseAction (BaseAction.java:275) - Waiting for element to come up...
+INFO  | 2017-06-11 19:12:19 | [main] operation.BaseAction (BaseAction.java:277) - Element has come up...
+DEBUG | 2017-06-11 19:12:19 | [main] operation.UIOperation (UIOperation.java:73) - -----CLICK--//*[@id="gb36"]/span[1]----XPATH-------
+INFO  | 2017-06-11 19:12:22 | [main] operation.BaseAction (BaseAction.java:235) - Button is cliked
+INFO  | 2017-06-11 19:12:22 | [main] page.HomePage (HomePage.java:66) - Title is validated
+INFO  | 2017-06-11 19:12:22 | [main] test.TestBase (TestBase.java:84) - !!!!!! Package name is : package com.snpm.test
+DEBUG | 2017-06-11 19:12:23 | [main] test.TestBase (TestBase.java:93) - sending email is not configured.

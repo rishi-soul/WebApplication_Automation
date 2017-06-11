@@ -11,13 +11,13 @@ import org.ini4j.Ini;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.snpm.page.BasePage;
 import com.snpm.page.HomePage;
 import com.snpm.util.BaseUtil;
-import com.snpm.util.ExtentManager;
 import com.snpm.util.Util;
 import com.snpm.webdriver.WebDriverFactory;
 
@@ -30,7 +30,7 @@ public class TestBase {
 	public static WebDriver driver = WebDriverFactory.getWebDriver(prop.getProperty("browser")).getDriver();
 	protected ExtentTest LOGR;
 	protected HomePage homePage;
-	public static final ExtentReports reports = ExtentManager.GetExtent();
+	public static final ExtentReports reports = BaseUtil.getReportInstance();
 	public static final Logger logger = LogManager.getLogger();
 
 	public static String passScreenShotPath = null;
@@ -83,7 +83,7 @@ public class TestBase {
 		String packageName = this.getClass().getPackage().toString();
 		logger.info("!!!!!! Package name is : " + packageName);
 			reports.flush();
-			//reports.close();
+			reports.close();
 			// driver.quit();
 			
 			driver.get(report_url);

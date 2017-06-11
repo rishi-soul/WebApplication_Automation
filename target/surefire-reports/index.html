@@ -2,7 +2,7 @@
 
 <html>
   <head>
-  <title>TestNG reports</title>
+  <title>TestNG new reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
@@ -141,10 +141,10 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;smokeTestSNPM&quot;&gt;
-  &lt;test name=&quot;smokeTestSNPM&quot;&gt;
+  &lt;test name=&quot;smokeTestSNPM&quot; preserve-order=&quot;true&quot;&gt;
     &lt;parameter name=&quot;accessSeeker&quot; value=&quot;Y&quot;/&gt;
-    &lt;parameter name=&quot;isdatavalidation&quot; value=&quot;N&quot;/&gt;
     &lt;parameter name=&quot;loadHomePage&quot; value=&quot;Y&quot;/&gt;
+    &lt;parameter name=&quot;isdatavalidation&quot; value=&quot;N&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.snpm.test.TestHomePage&quot;/&gt;
     &lt;/classes&gt;
@@ -190,12 +190,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'enterInputs')
 data.setCell(0, 2, 'com.snpm.test.TestHomePage')
-data.setCell(0, 3, 10259);
+data.setCell(0, 3, 14049);
 window.suiteTableData['smokeTestSNPM']= { tableData: data, tableDiv: 'times-div-smokeTestSNPM'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-smokeTestSNPM">
               </div> <!-- times-div-smokeTestSNPM -->
             </div> <!-- times-div -->
@@ -228,11 +228,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">enterInputs</span>
-                <span class="method-start">4124 ms</span>
+                <span class="method-start">3703 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">14385 ms</span>
+                <span class="method-start">17753 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="smokeTestSNPM" duration-ms="14736" started-at="2017-06-10T07:54:46Z" finished-at="2017-06-10T07:55:01Z">
+  <suite name="smokeTestSNPM" duration-ms="18700" started-at="2017-06-11T13:42:04Z" finished-at="2017-06-11T13:42:23Z">
     <groups>
     </groups>
-    <test name="smokeTestSNPM" duration-ms="14736" started-at="2017-06-10T07:54:46Z" finished-at="2017-06-10T07:55:01Z">
+    <test name="smokeTestSNPM" duration-ms="18700" started-at="2017-06-11T13:42:04Z" finished-at="2017-06-11T13:42:23Z">
       <class name="com.snpm.test.TestHomePage">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.snpm.test.TestHomePage@134d26af]" name="init" is-config="true" duration-ms="4118" started-at="2017-06-10T13:24:46Z" finished-at="2017-06-10T13:24:50Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.snpm.test.TestHomePage@6564d023]" name="init" is-config="true" duration-ms="3700" started-at="2017-06-11T19:12:04Z" finished-at="2017-06-11T19:12:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="enterInputs()[pri:0, instance:com.snpm.test.TestHomePage@134d26af]" name="enterInputs" duration-ms="10259" started-at="2017-06-10T13:24:50Z" finished-at="2017-06-10T13:25:00Z">
+        <test-method status="PASS" signature="enterInputs()[pri:0, instance:com.snpm.test.TestHomePage@6564d023]" name="enterInputs" duration-ms="14049" started-at="2017-06-11T19:12:08Z" finished-at="2017-06-11T19:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInputs -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.snpm.test.TestHomePage@134d26af]" name="close" is-config="true" duration-ms="347" started-at="2017-06-10T13:25:00Z" finished-at="2017-06-10T13:25:01Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.snpm.test.TestHomePage@6564d023]" name="close" is-config="true" duration-ms="942" started-at="2017-06-11T19:12:22Z" finished-at="2017-06-11T19:12:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
